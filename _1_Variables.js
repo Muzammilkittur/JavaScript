@@ -31,7 +31,7 @@ var name = "khan"
 
 
 // const....
-// the below example using const is will give error.
+// the below example using const is will give error, and cannot change the values multiple times.
 
 // const lastName = "kittur"
 // const lastName = "kittur"
