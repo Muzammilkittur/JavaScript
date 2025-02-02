@@ -61,3 +61,13 @@ if (mode ==="dark"){
     color="white"
 }
 console.log(color)
+
+
+
+// Ternary Operator....
+// condition? true output : false output
+
+result = age > 18 ? "adult" : "not adult"
+console.log(result)
+
+
