@@ -46,3 +46,18 @@ if ( number < 18 ) {
 }
 
 
+
+// else if Statements
+let mode = "red"
+let color;
+
+if (mode ==="dark"){
+    color = "dark";
+} else if ( mode === "blue"){
+    color = "blue";
+} else if (mode === "red"){
+    color = "red";
+} else {
+    color="white"
+}
+console.log(color)
