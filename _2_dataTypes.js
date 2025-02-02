@@ -71,3 +71,13 @@ result = age > 18 ? "adult" : "not adult"
 console.log(result)
 
 
+// Alert
+alert("Hello!")  // one time alert.
+
+
+// prompt is also like alert, but it will allow to enter some input for user.
+prompt("Hello! prompt")
+
+// we can print the input given by user.
+let name = prompt("Enter your Name");
+console.log(name)
