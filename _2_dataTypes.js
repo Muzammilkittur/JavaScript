@@ -79,5 +79,30 @@ alert("Hello!")  // one time alert.
 prompt("Hello! prompt")
 
 // we can print the input given by user.
-let name = prompt("Enter your Name");
-console.log(name)
+let name = prompt("Enter Number");
+console.log(name);
+
+
+// The user input is Multiple of 5? 
+if (name % 5 ===0){
+    console.log("Multiple of 5")
+} else {
+    console.log("Not Multiple of 5")
+}
+
+
+// To check the Grade of Student
+let grade = prompt("Enter Marks"); 
+if ( grade >= 80 && grade <= 100 ) {
+    console.log ("A")
+} else if (grade >= 70 && grade < 80) {
+    console.log("B")
+} else if (grade >= 60 && grade < 70) {
+    console.log("C")
+} else if (grade >= 50 && grade < 60) {
+    console.log("D")
+} else {
+    console.log("F")
+}
+
+
