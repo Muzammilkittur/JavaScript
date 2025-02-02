@@ -21,3 +21,28 @@ console.log('age is with option-1', student["age"]);
 
 // or Option-2,
 console.log('age is with option-2', student.age);
+
+
+
+// Conditional Statements.
+
+let age = 30;
+if ( age >= 18 ) {
+    console.log("You can Vote");
+}
+
+if (age < 18 ) {
+    console.log("You CANNOT Vote");
+}
+
+
+// if Else Statement
+let number = 10;
+
+if ( number < 18 ) {
+    console.log("Junior");
+} else {
+    console.log("senior")
+}
+
+
