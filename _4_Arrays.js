@@ -22,3 +22,10 @@ console.log(heros.length)
 
 heros[0]= "Batman"
 console.log(heros)
+
+// looping over an array
+console.log(heros[2])
+i = heros
+for( let i=0; i<heros.length; i++) {
+    console.log("i is", heros[i])
+}
