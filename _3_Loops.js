@@ -66,3 +66,11 @@ console.log(specialString.charAt(1))   // gives a value at the index mentioned.
 let user = prompt("Enter Full Name");
 result = `@${user}${user.length}`
 console.log(result)
+
+
+
+// 'for of' looping 
+let cities = ["mumbai", "delhi", "agra", "kolkata"]
+for (let city of cities) {
+    console.log(city)
+}

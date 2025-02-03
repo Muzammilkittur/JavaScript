@@ -29,3 +29,10 @@ i = heros
 for( let i=0; i<heros.length; i++) {
     console.log("i is", heros[i])
 }
+
+
+// 'for of' looping 
+let cities = ["mumbai", "delhi", "agra", "kolkata"]
+for (let city of cities) {
+    console.log(city.toUpperCase())
+}
