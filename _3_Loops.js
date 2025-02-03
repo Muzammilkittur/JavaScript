@@ -42,9 +42,19 @@ console.log(specialString1)
 // ------------    2). \t  (Tab between string)
 
 // Examples.
-let specialString2 = `the result in next line\nresult is ${sum+sum}`;
+let specialString2 = `      the result in next line\nresult is ${sum+sum}           `;
 console.log(specialString2)
 
 // Examples.
 let specialString3 = `there is a tab<\t>before me ${sum+sum}`;
 console.log(specialString3)
+
+console.log(specialString3.length)  // it is 29 not 30. 
+
+
+
+// String Methods
+console.log(specialString3.toUpperCase())
+console.log(specialString3.toLowerCase())
+console.log(specialString3.trim())    // trims the inital and last spaces of a string
+console.log(specialString.charAt(1))   // gives a value at the index mentioned.
