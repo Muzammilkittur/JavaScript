@@ -36,3 +36,15 @@ let cities = ["mumbai", "delhi", "agra", "kolkata"]
 for (let city of cities) {
     console.log(city.toUpperCase())
 }
+
+
+// Practice -1
+// I have an array with Marks of Student, find the average of marks.
+
+let mark = [78, 38, 98, 65, 78, 34, 14];
+let sum = 0;
+
+for (let value of mark) {
+    sum += value
+}
+console.log("average of mark is", sum/mark.length)
