@@ -58,3 +58,11 @@ console.log(specialString3.toUpperCase())
 console.log(specialString3.toLowerCase())
 console.log(specialString3.trim())    // trims the inital and last spaces of a string
 console.log(specialString.charAt(1))   // gives a value at the index mentioned.
+
+
+
+// Practice Example-1, 
+// Create a prompt, user will enter his full name, and Generate a username for him using @ before the name, and total lengh after the name.
+let user = prompt("Enter Full Name");
+result = `@${user}${user.length}`
+console.log(result)
