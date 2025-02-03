@@ -32,3 +32,19 @@ for (i=0; i<10; i++) {
 let specialString = `the result of Sum is ${sum}`;
 console.log(specialString)
 
+// or Expression
+let specialString1 = `the result of Sum is ${sum+sum}`;
+console.log(specialString1)
+
+
+// Escape Characters.
+// ------------    1). \n  (next Line)
+// ------------    2). \t  (Tab between string)
+
+// Examples.
+let specialString2 = `the result in next line\nresult is ${sum+sum}`;
+console.log(specialString2)
+
+// Examples.
+let specialString3 = `there is a tab<\t>before me ${sum+sum}`;
+console.log(specialString3)
