@@ -48,3 +48,10 @@ for (let value of mark) {
     sum += value
 }
 console.log("average of mark is", sum/mark.length)
+
+
+// Methods in Array.
+
+// Push(): Add to end
+// Pop(): Delet from End & return
+// toString(): Converts array to string
