@@ -56,11 +56,17 @@ console.log("average of mark is", sum/mark.length)
 // Pop(): Delet from End & return
 // toString(): Converts array to string
 
-mark.push(100);
+mark.push(100); // adds to end
 console.log(mark)
 
-mark.pop();
-console.log(mark)
+mark.pop(); // removes from end
+console.log(mark) 
+
+mark.shift(); // removes from start
+console.log('shifted', mark) 
+
+mark.unshift("001"); // adds from first
+console.log('unshifted', mark)
 
 let markString = mark.toString();
 console.log(markString)
