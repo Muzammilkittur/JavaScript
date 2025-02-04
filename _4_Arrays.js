@@ -55,3 +55,12 @@ console.log("average of mark is", sum/mark.length)
 // Push(): Add to end
 // Pop(): Delet from End & return
 // toString(): Converts array to string
+
+mark.push(100);
+console.log(mark)
+
+mark.pop();
+console.log(mark)
+
+markString = mark.toString();
+console.log(markString)
