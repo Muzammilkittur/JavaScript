@@ -7,3 +7,10 @@ function myFunction() {
 myFunction()    // here myFunction is called, so result will print in console.
 myFunction()    // Again we can recall the myFunction, if wanted to execute again
 //...
+
+
+function sum (x, y) {
+    console.log("sum of x+y is :", x+y);
+}
+
+sum(3, 2)
