@@ -16,12 +16,25 @@ function sum (x, y) {
 sum(3, 2)
 
 
-function myNewFunction () {
+// function myNewFunction () {
 
-    for (i=0; i<10; i++){
-        console.log("loop i is ", i)
+//     for (i=0; i<10; i++){
+//         console.log("loop i is ", i)
+//     }
+//     console.log(i)
+// }
+
+// myNewFunction()
+
+
+
+function myNewFunction () {
+    let i =10;
+    if (i==0) {
+console.log("helo", i)
+    } else {
+        console.log("None")
     }
-    console.log(i)
 }
 
-myNewFunction(20)
+myNewFunction()
