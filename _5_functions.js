@@ -38,3 +38,43 @@ console.log("helo", i)
 }
 
 myNewFunction()
+
+
+
+// Arrow Function
+
+// arrow function are the part of Modern JS.
+// arrow functions are the functions, need to be stored in a variable. arrow function is denoted by (=>)
+// arrow function is used for small work purpose.
+
+const arrowMul = (a, b) => {
+    console.log(a * b )
+}
+
+arrowMul(3, 3)
+
+
+const arrowMul2 = (a, b) => {
+    return a*b;
+};
+// if we call the arrowMul2 function in console page, and gives some input like arrowMul2(2, 2) then this above code will return the value as 4.
+
+
+
+
+
+// Make a function which counts the vowels in a string.
+
+
+function countVowels (str) {
+    let count = 0;
+    for (const char of str) {    // here for of loop is used.
+        if (char ==="a" || char === "e" || char === "i" || char === "o" || char==="u") {
+            count++;
+        }
+    }
+    console.log(count)
+}
+
+// using the above function, if we call this function in console page and give input a string as countVowels("helloworld")
+// this will give the total count of vowels.
